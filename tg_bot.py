@@ -1,6 +1,6 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
-from qchain import query_chain
+from groq_chain import query_chain
 from dotenv import load_dotenv
 import os           
 
