@@ -1,18 +1,14 @@
 from langchain_community.chat_models import ChatOllama
 from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-import requests
-from bs4 import BeautifulSoup
-from googleapiclient.discovery import build
-from dotenv import load_dotenv
-import os
-from langchain_community.document_loaders.text import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores.faiss import FAISS
 from langchain.chains.retrieval import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from utils import google_search, extract_text_from_p_tags
+from dotenv import load_dotenv
+import os
 
 #Variables
 def query_chain(prompt):
