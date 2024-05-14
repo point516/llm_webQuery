@@ -1,3 +1,4 @@
 .env
 parsed.txt
 test.py
+__pycache__
