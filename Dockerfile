@@ -6,7 +6,7 @@ COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 
-COPY groq_chain.py tg_bot.py utils.py .env /tg-siri/
+COPY gpt4o-mini.py tg_bot.py utils.py .env /tg-siri/
 
 CMD ["python", "tg_bot.py"]
 
