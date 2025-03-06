@@ -1,4 +1,4 @@
-## Web Query System with ChatGPT4o-mini with OpenaAI API ([Try](https://t.me/siriwb_bot))
+## Web Query System with ChatGPT4o-mini with OpenaAI API
 
 **Web Query System** based on ChatGPT4o-mini, accessible through a [Telegram chatbot](https://t.me/siriwb_bot). The idea is to harness the power and cheapness of the ChatGPT4o-mini language model to deliver precise, up-to-date and useful information directly to you with minimum hallucinations, mainly because information is scraped from the web.
 
@@ -12,3 +12,6 @@ The process involves several steps to ensure that you get the most relevant info
 ### Deployment and Technology
 - **Hosting:** The system is deployed on a Google VM instance using a Docker image.
 - **API Integration:** The 4o-mini model is integrated through the OpenaAI API.
+
+### Check out the demo here - https://youtu.be/NKYEsZQmUME
+![My Image](https://i.imgur.com/J6VgNMP.png)
